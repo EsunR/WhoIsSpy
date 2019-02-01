@@ -24,7 +24,8 @@ import router from './router.js';
 // 使用Vue-resource
 Vue.use(VueResource);
 // 设置请求的根路径
-Vue.http.options.root = "http://localhost:8080/api/spy"
+// Vue.http.options.root = "http://localhost:8080/api/spy"
+Vue.http.options.root = "https://www.esunr.xyz:8080/api/spy"
 // 设置表单提交的编码类型：可以免除用Vue-resource的Post指令专递数据时的第三个编码类型的参数
 Vue.http.options.emulateHTTP = true;
 
